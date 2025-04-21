@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    border: 1px solid yellowgreen;
+    color: blue;
+}
+
+input::placeholder{
+    color: #ff1396;
+}
+
+p{
+    color: aqua;
+}
+
+p::first-letter{
+    color: red;
+}
+
+a::after{
+    content: "🔄";
+}
+
+a::before{
+    content: "👉";
+}
